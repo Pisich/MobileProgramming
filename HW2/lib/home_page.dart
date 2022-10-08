@@ -38,7 +38,9 @@ class _HomePageState extends State<HomePage> {
                           borderSide: const BorderSide(
                               color: Color.fromARGB(255, 6, 99, 22))),
                       border: const OutlineInputBorder(),
-                      labelText: "Cost of Service")),
+                      labelText: "Cost of Service"),
+                    keyboardType: TextInputType.number),
+              ),
             ),
           ),
           ListTile(
